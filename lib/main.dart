@@ -69,7 +69,7 @@ class Inicio extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-          debugSemanticsDisableAnimationsh
+          
           body: Container(
             padding: EdgeInsets.only(top: 130,bottom: 10, right: 10, left: 10),
             decoration: BoxDecoration(
