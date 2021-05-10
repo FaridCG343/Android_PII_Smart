@@ -174,7 +174,7 @@ class Inicio extends StatelessWidget {
                       color: Colors.white,
                       shape: new RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
                       onPressed: () {
-                        Navigator.pushNamed(context, "/contactos");
+                        Navigator.pushNamed(context, "/contacto");
                       },
                       child: SizedBox(
                         width: 100,
