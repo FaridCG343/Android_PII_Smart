@@ -8,7 +8,7 @@ class MiSmartApp extends StatelessWidget {
     return MaterialApp(
       title: 'MiSmart',
       theme: ThemeData(
-        primarySwatch: Colors.lightBlue,
+        primarySwatch: Colors.blue[200],
       ),
       routes: <String,WidgetBuilder>{
         "/inicio":(BuildContext context)=>Inicio(),
