@@ -8,7 +8,7 @@ class MiSmartApp extends StatelessWidget {
     return MaterialApp(
       title: 'MiSmart',
       theme: ThemeData(
-        primarySwatch: Colors.lightBlue,
+        primarySwatch: Colors.lightBlue[200],
       ),
       routes: <String,WidgetBuilder>{
         "/inicio":(BuildContext context)=>Inicio(),
@@ -16,6 +16,7 @@ class MiSmartApp extends StatelessWidget {
         "/productos":(BuildContext context)=>Productos(), 
         "/contacto":(BuildContext context)=>Contacto(),
       },//fin de rutas
+      debugShowCheckedModeBanner: false,
       home:Inicio(),
     );//Fin de material app
   }//fin de widget build
