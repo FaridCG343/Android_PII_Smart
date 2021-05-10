@@ -90,9 +90,26 @@ class Inicio extends StatelessWidget {
                               child: RaisedButton(
                                 color: Colors.green[200],
                                 shape: new RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10.0) ),
+                                  borderRadius: BorderRadius.circular(10.0) 
+                                ),
+                                onPessed:(){
+                                  Navigator.pushNamed(context, "/inicio");
+                                },
+                                child: SizedBox(
+                                  width: 100,
+                                  heigth: 100,
+                                  child: Center(
+                                    child: Text(
+                                      "Inicio",
+                                      textAlign: TextAlign.center,
+                                      style: TextStyle(
+                                        color: Colors.indigo,
+                                        fontWeight: FontWeight.w900,
+                                      ),
+                                      ),
+                                    ),//center
+                                ),//sized box
                               ),//boton inicio
-
                             ),//padding
                           ],//widget[]   
                          ),//fin columna 1
