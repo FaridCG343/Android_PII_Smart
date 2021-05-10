@@ -27,7 +27,7 @@ class Empresa extends StatelessWidget {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: AppBar(
-        title: Text('Empresa'),
+        title: Text('Empresa Castillo'),
       ),
       body: Center(
         child: Text("Seccion Empresa"),
@@ -41,7 +41,7 @@ class Productos extends StatelessWidget {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: AppBar(
-        title: Text('Productos'),
+        title: Text('Productos Castillo'),
       ),
       body: Center(
         child: Text("Seccion Productos"),
@@ -55,7 +55,7 @@ class Contacto extends StatelessWidget {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: AppBar(
-        title: Text('Contacto'),
+        title: Text('Contacto Castillo'),
       ),
       body: Center(
         child: Text("Seccion Contacto"),
@@ -73,7 +73,7 @@ class Inicio extends StatelessWidget {
         decoration: BoxDecoration(
           color: Colors.lightBlue,
           image: DecorationImage(
-            image: NetworkImage("https://raw.githubusercontent.com/FaridCG343/MisImagenes/main/consejos-vacunas-peru.png"),
+            image: NetworkImage("https://raw.githubusercontent.com/FaridCG343/MisImagenes/main/fondo.jpg"),
             alignment: Alignment.topCenter,
           ),
         ), //fin de box decoration
