@@ -100,7 +100,7 @@ class Inicio extends StatelessWidget {
                             "Inicio",
                             textAlign: TextAlign.center,
                             style: TextStyle(
-                              color: Colors.green[200],
+                              color: Colors.grey,
                               fontWeight: FontWeight.w900,
                             ),
                           ),
