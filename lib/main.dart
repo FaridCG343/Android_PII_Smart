@@ -79,6 +79,27 @@ class Inicio extends StatelessWidget {
               alignment :Alignment.topCenter,
               ),
             ),//fin de box decoration
+            child: Column(
+                    children: <Widget>[
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                        Column(
+                          children: <Widget>[
+                            Padding(
+                              padding: EdgeInsets.all(10),
+                              child: RaisedButton(
+                                color: Colors.green[200],
+                                shape: new RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(10.0) ),
+                              ),//boton inicio
+
+                            ),//padding
+                          ],//widget[]   
+                         ),//fin columna 1
+                        ),//fin de fila 1
+
+                    ],//fin de widget []
+                  ),
           ),//fin de container
         );// fin de sacffold
   }//fin de widget build inicio
