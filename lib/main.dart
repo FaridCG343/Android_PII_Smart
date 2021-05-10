@@ -83,7 +83,8 @@ class Inicio extends StatelessWidget {
                     children: <Widget>[
                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,
-                        child: Column(
+                        children: <Widget>[
+                        Column(
                           children: <Widget>[
                             Padding(
                               padding: EdgeInsets.all(10),
@@ -113,8 +114,9 @@ class Inicio extends StatelessWidget {
                             ),//padding
                           ],//widget[]   
                          ),//fin columna 1
+                        ]
                         ),//fin de fila 1
-
+                        
                     ],//fin de widget []
                   ),
           ),//fin de container
