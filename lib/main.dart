@@ -110,6 +110,36 @@ class Inicio extends StatelessWidget {
                   ), //padding
                 ], //widget[]
               ), //fin columna 1
+              Column(
+                children: <Widget>[
+                  Padding(
+                    padding: EdgeInsets.all(10),
+                    child: RaisedButton(
+                      color: Colors.white,
+                      shape: new RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10.0)
+                        ),
+                      onPressed: (){
+                        Navigator.pushNamed(context, "/empresa");
+                      },
+                      child: SizedBox(
+                        width: 100,
+                        height: 100,
+                        child: Center(
+                          child: Text(
+                            "Empresa",
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              color: Colors.grey,
+                              fontWeight: FontWeight.w900,
+                            ),
+                          ),
+                        ), //center
+                      ), //sized box
+                    ), //boton inicio
+                  ), //padding
+                ], //widget[]
+              ), //fin columna 2
             ]), //fin de fila 1
           ], //fin de widget []
         ),
