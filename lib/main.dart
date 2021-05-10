@@ -73,7 +73,7 @@ class Inicio extends StatelessWidget {
         decoration: BoxDecoration(
           color: Colors.lightBlue,
           image: DecorationImage(
-            image: NetworkImage("https://raw.githubusercontent.com/FaridCG343/MisImagenes/main/fondo.jpg"),
+            image: NetworkImage("https://th.bing.com/th/id/Raedfecd0745dd577aa3ea231e91d11d5?rik=o3X3cBeayRhI6Q&riu=http%3a%2f%2fwww.supermercadossmart.com%2fviews_yea%2fimg%2fpagina%2fHome%2fnuevologo-smart.png&ehk=av9jM2YQvZd9tXCudKklLKNF0hl0pcIUhGJ3S0MOvtM%3d&risl=&pid=ImgRaw"),
             alignment: Alignment.topCenter,
           ),
         ), //fin de box decoration
